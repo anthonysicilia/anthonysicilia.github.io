@@ -1,5 +1,7 @@
 body {
     background-image: url("IMG_1117.jpg");
+    min-width: 100%;
+    max-height: 100vh;
     height: auto;
     background-attachment: fixed;
     background-position: center;
