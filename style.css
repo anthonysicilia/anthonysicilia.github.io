@@ -1,7 +1,4 @@
-body, html {
-    height: 100%;
-}
-.img-bg {
+body {
     background-image: url("IMG_1117.jpg");
     height: auto;
     background-attachment: fixed;
@@ -10,7 +7,10 @@ body, html {
     background-size: cover;
 }
 .vrt-cntr {
-    height: 100%;
+    margin-top: 0vh;
+    height: 100vh;
+    background: transparent none;
+    top-margin: 50vh;
     display:flex;
     justify-content:center;
     align-items: center;
