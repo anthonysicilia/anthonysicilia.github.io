@@ -1,17 +1,16 @@
-html::before {
-  content: ' ';
-  display: block;
-  background-image: url("IMG_1117.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: -10; // This is pretty important.
+body, html {
+    height: 100%;
+}
+.img-bg {
+    background-image: url("IMG_1117.jpg");
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
 .vrt-cntr {
     height: 100%;
