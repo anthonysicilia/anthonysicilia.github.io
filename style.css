@@ -7,7 +7,6 @@ body {
     background-size: cover;
 }
 .vrt-cntr {
-    margin-top: 0vh;
     height: 100vh;
     background: transparent none;
     top-margin: 50vh;
@@ -17,12 +16,7 @@ body {
     flex-flow: column;
 }
 .bg {
-    background: url("IMG_1117.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-image: url("IMG_1117.jpg");
+    background: transparent none;
 }
 .cntnt-bg {
     background-color: rgba(246, 249, 250, .95);
