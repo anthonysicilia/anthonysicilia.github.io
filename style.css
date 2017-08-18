@@ -1,0 +1,111 @@
+body, html {
+    height: 100%;
+}
+.img-bg {
+    background-image: url("IMG_1117.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vrt-cntr {
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+}
+.bg {
+    background: url("IMG_1117.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("IMG_1117.jpg");
+}
+.cntnt-bg {
+    background-color: rgba(246, 249, 250, .95);
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.img-bg-hdr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #f6f9fa;
+    font-size: 8em;
+    text-shadow: #545a5c 0 3px 3px;
+}
+.img-bg-bdy-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #f6f9fa;
+    font-size: 2em;
+    text-shadow: #545a5c 0 1px 1px;
+}
+.bg-hdr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #94B7C4;
+    font-size: 3.5em;
+}
+.bg-posthdr-txt {
+    font-family: 'Alegreya Sans';
+    color: #545a5c;
+    font-size: 4em;
+}
+.bg-subhdr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #94B7C4;
+    font-size: 2.2em;
+}
+.bg-supbdy-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #545a5c;
+    font-size: 2em;
+}
+.bg-bdy-txt {
+    font-family: 'Alegreya Sans';
+    color: #545a5c;
+    font-size: 1.5em;
+}
+.nvbr-hdr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #545a5c;
+    font-size: 2.2em;
+}
+.nvbr-bdy-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #545a5c;
+    font-size: 1.6em;
+}
+.lt-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #f6f9fa;
+}
+.drk-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #545a5c;
+}
+.toplink {
+    display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.toplink:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.toplink:hover:after {
+	width: 100%;
+	background: #f6f9fa;
+}
