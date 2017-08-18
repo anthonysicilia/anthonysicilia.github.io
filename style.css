@@ -10,7 +10,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @media (max-width: @iphone-screen) {
+    @media screen and (max-width: @iphone-screen) {
         background-attachment: scroll;
     }
 }
