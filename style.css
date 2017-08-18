@@ -1,7 +1,3 @@
-html {
-    height: 100%;
-    width:100%;
-}
 body:after{
       content:"";
       position:fixed; /* stretch a fixed position to the whole screen */
