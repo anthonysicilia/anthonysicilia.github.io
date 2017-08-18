@@ -2,6 +2,11 @@ html {
     height: 100%;
     width:100%;
 }
+#wrapper{
+    width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
 body {
     background-image: url("IMG_1117.jpg");
     background-attachment: fixed;
