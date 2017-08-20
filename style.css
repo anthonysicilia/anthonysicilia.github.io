@@ -6,26 +6,31 @@ body:after{
       left:0;
       right:0;
       z-index:-1; /* needed to keep in the background */
-      background: url("IMG_0420.jpg") center center;
+      background: url("img/IMG_0420.jpg") center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
 }
 .vrt-cntr {
-    height: 100vh;
+    height: 90vh;
     background: transparent none;
-    top-margin: 50vh;
     display:flex;
     justify-content:center;
     align-items: center;
     flex-flow: column;
 }
+.spc {
+    height: 10vh;
+}
 .bg {
+    top-padding: 10vh;
     background: transparent none;
 }
 .cntnt-bg {
-    background-color: rgba(246, 249, 250, .95);
+    //background-color: rgba(254,252,246, .95);
+    //background-color: rgba(255, 249, 239, .95);
+    background-color: rgba(246, 250, 251, .95);
 }
 .navbar .navbar-nav {
     display: inline-block;
@@ -50,34 +55,41 @@ body:after{
 }
 .bg-hdr-txt {
     font-family: 'Alegreya Sans SC';
-    color: #98b8c7;
+    color: #99bac6;
     font-size: 3.5em;
 }
 .bg-posthdr-txt {
     font-family: 'Alegreya Sans';
-    color: #323d42;
+    color: #5A6E85;
     font-size: 4em;
 }
 .bg-subhdr-txt {
     font-family: 'Alegreya Sans SC';
-    color: #98b8c7;
+    color: #99bac6;
     font-size: 2.2em;
 }
 .bg-supbdy-txt {
     font-family: 'Alegreya Sans SC';
-    color: #323d42;
+    color: #5A6E85;
     font-size: 2em;
 }
 .bg-bdy-txt {
     font-family: 'Alegreya Sans';
-    color: #101416;
+    color: #323d42;
     font-size: 1.5em;
+}
+.no-dec a:hover{
+    text-decoration: none;
 }
 .nvbr-hdr-txt {
     font-family: 'Alegreya Sans SC';
     color: #101416;
     font-size: 2.2em;
     text-shadow: #f6fafb 0 0 1px;
+    transition: color 1s cubic-bezier(.05, 1, 1, 1);
+}
+.nvbr-hdr-txt:hover {
+    color: #f6fafb;
 }
 .nvbr-bdy-txt {
     font-family: 'Alegreya Sans SC';
