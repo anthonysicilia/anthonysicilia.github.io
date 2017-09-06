@@ -78,6 +78,9 @@ body:after{
     color: #323d42;
     font-size: 1.5em;
 }
+.no-dec a{
+    color: #f6fafb;
+}
 .no-dec a:hover{
     text-decoration: none;
 }
