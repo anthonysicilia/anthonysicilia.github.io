@@ -1,0 +1,140 @@
+body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("img/IMG_0420.jpg") center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+.vrt-cntr {
+    height: 90vh;
+    background: transparent none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+}
+.spc {
+    height: 10vh;
+}
+.bg {
+    top-padding: 10vh;
+    background: transparent none;
+}
+.cntnt-bg {
+    //background-color: rgba(254,252,246, .95);
+    //background-color: rgba(255, 249, 239, .95);
+    background-color: rgba(246, 250, 251, .95);
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.img-bg-hdr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #f6fafb;
+    font-size: 8em;
+    text-shadow: #101416 0 3px 3px;
+}
+.img-bg-bdy-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #f6fafb;
+    font-size: 2em;
+    text-shadow: #101416 0 1px 1px;
+}
+.bg-hdr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #99bac6;
+    font-size: 3.5em;
+}
+.bg-ftr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #FEF1B5;
+    font-size: 3.5em;
+    text-shadow: #101416 0 3px 3px;
+}
+.bg-posthdr-txt {
+    font-family: 'Alegreya Sans';
+    color: #5A6E85;
+    font-size: 4em;
+}
+.bg-subhdr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #99bac6;
+    font-size: 2.2em;
+}
+.bg-supftr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #f6fafb;
+    font-size: 2em;
+    text-shadow: #101416 0 3px 3px;
+}
+.bg-supbdy-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #5A6E85;
+    font-size: 2em;
+}
+.bg-bdy-txt {
+    font-family: 'Alegreya Sans';
+    color: #323d42;
+    font-size: 1.5em;
+}
+.no-dec a{
+    color: #f6fafb;
+}
+.no-dec a:hover{
+    text-decoration: none;
+}
+.nvbr-hdr-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #101416;
+    font-size: 2.2em;
+    text-shadow: #f6fafb 0 0 1px;
+    transition: color 1s cubic-bezier(.05, 1, 1, 1);
+}
+.nvbr-hdr-txt:hover {
+    color: #f6fafb;
+}
+.nvbr-bdy-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #101416;
+    font-size: 1.6em;
+    text-shadow: #f6fafb 0 0 1px;
+}
+.lt-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #101416;
+}
+.drk-txt {
+    font-family: 'Alegreya Sans SC';
+    color: #101416;
+}
+.toplink {
+    display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.toplink:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.toplink:hover:after {
+	width: 100%;
+	background: #f6fafb;
+}
