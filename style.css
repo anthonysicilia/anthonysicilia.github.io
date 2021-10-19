@@ -6,14 +6,14 @@ body:after{
       left:0;
       right:0;
       z-index:-1; /* needed to keep in the background */
-      background: url("img/IMG_0420.jpg") center center;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("img/IMG_0420.jpg") center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
 }
 .vrt-cntr {
-    height: 90vh;
+    height: 40vh;
     background: transparent none;
     display:flex;
     justify-content:center;
@@ -22,6 +22,9 @@ body:after{
 }
 .spc {
     height: 10vh;
+}
+.spc-2 {
+    height: 50vh;
 }
 .bg {
     top-padding: 10vh;
@@ -43,8 +46,8 @@ body:after{
 }
 .img-bg-hdr-txt {
     font-family: 'Alegreya Sans SC';
-    color: #f6fafb;
-    font-size: 8em;
+    color: #FEF1B5;
+    font-size: 6em;
     text-shadow: #101416 0 3px 3px;
 }
 .img-bg-bdy-txt {
@@ -98,7 +101,7 @@ body:after{
 }
 .nvbr-hdr-txt {
     font-family: 'Alegreya Sans SC';
-    color: #101416;
+    color: #FEF1B5;
     font-size: 2.2em;
     text-shadow: #f6fafb 0 0 1px;
     transition: color 1s cubic-bezier(.05, 1, 1, 1);
@@ -108,7 +111,7 @@ body:after{
 }
 .nvbr-bdy-txt {
     font-family: 'Alegreya Sans SC';
-    color: #101416;
+    color: #FEF1B5;
     font-size: 1.6em;
     text-shadow: #f6fafb 0 0 1px;
 }
