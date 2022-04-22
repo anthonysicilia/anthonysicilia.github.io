@@ -21,10 +21,10 @@ body:after{
     flex-flow: column;
 }
 .spc {
-    height: 10vh;
+    height: 20vh;
 }
 .spc-2 {
-    height: 50vh;
+    height: 40vh;
 }
 .bg {
     top-padding: 10vh;
